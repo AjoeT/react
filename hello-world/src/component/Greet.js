@@ -4,7 +4,7 @@ import React from 'react'
 //     return <h1>Hello, Ajoe</h1>
 // } or arrow function
 
-const Greet = () => <h1>Hello ,Ajoe. Arrow funcion</h1>
+const Greet = () => <h1> Hello ,Ajoe. Arrow funcion </h1>
 
 export default Greet
 

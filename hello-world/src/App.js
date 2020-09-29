@@ -2,10 +2,11 @@ import React from 'react';
 // import './App.css';
 // import Greet from './component/Greet';
 // import Welcome from './component/welcome';
-// import WelcomeName from './component/WelcomeName';
+import WelcomeName from './component/WelcomeName';
 // import WelcomeClassComponent from './component/WelcomeClassComponent'
 import MessageState from './component/MessageState';
 import Counter from './component/Counter';
+
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
     </WelcomeName>
     <WelcomeClassComponent name="Ajoe"/> */}
     {/* <MessageState /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <WelcomeName name = 'Ajoe'>
+      <p>This is the paragraph</p>
+    </WelcomeName>
     </div>
   );
 }

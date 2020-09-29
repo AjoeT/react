@@ -6,11 +6,12 @@ import WelcomeName from './component/WelcomeName';
 // import WelcomeClassComponent from './component/WelcomeClassComponent'
 import MessageState from './component/MessageState';
 import Counter from './component/Counter';
+import ParentComponent from './component/ParentComponent';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" align='center'>
     {/* <Greet />
     <Welcome /> */}
     {/* <WelcomeName name = "Ajoe"> 
@@ -22,9 +23,10 @@ function App() {
     <WelcomeClassComponent name="Ajoe"/> */}
     {/* <MessageState /> */}
     {/* <Counter /> */}
-    <WelcomeName name = 'Ajoe'>
+    {/* <WelcomeName name = 'Ajoe'>
       <p>This is the paragraph</p>
-    </WelcomeName>
+    </WelcomeName> */}
+    <ParentComponent/>
     </div>
   );
 }

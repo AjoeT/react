@@ -7,6 +7,7 @@ import WelcomeName from './component/WelcomeName';
 import MessageState from './component/MessageState';
 import Counter from './component/Counter';
 import ParentComponent from './component/ParentComponent';
+import ListRendering from './component/ListRendering';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
     {/* <WelcomeName name = 'Ajoe'>
       <p>This is the paragraph</p>
     </WelcomeName> */}
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
+    <ListRendering />
     </div>
   );
 }
